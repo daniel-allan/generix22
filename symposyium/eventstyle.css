@@ -1,0 +1,162 @@
+*{
+   margin: 0;
+}
+.tower{
+    margin-top: 50px;
+    background-image: url("tower-1.png");
+    margin-left:60px;
+    height: 430px;
+   
+    background-repeat: no-repeat;
+}
+
+.event-content{
+    /*background-color: aquamarine;*/
+    margin-top: 50px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.techthesis{
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /*background-color: blue;*/
+}
+
+.box{
+    height: 50px;
+}
+
+.wisequacks{
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.projectovenza{
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /*background-color:blueviolet;*/
+}
+
+.circuitrix{
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /*background-color:royalblue;*/
+}
+
+.couplink{
+    padding: 30px;
+    height: 500px;
+    width: 100%;
+    /*background-color:blanchedalmond;*/
+}
+
+.event-image{
+    float: left;
+    height: 450px;
+    width: 500px;
+    /*background-color: cadetblue;*/
+    
+}
+#thesis-img{
+    background-image: url("thesis.jpeg");
+    background-repeat: no-repeat;
+}
+
+#quiz-img{
+    background-image: url("quiz.jpeg");
+    background-repeat: no-repeat;
+}
+
+#project-img{
+    background-image: url("project.jpeg");
+    background-repeat: no-repeat;
+}
+
+#debug-img{
+    background-image: url("debug.jpeg");
+}
+
+#connection-img{
+    background-image:url("connection.jpeg");
+}
+.event-description{
+    font-family: 'Rubik', sans-serif;
+    padding-top:5px;
+    height: 500px;
+    width: 70%;
+    float: right;
+   /* background-color: black;*/
+    font-size: 35px;
+    /*color: aliceblue;*/
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+}
+.contact-section{
+    padding: 10px;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+}
+img{
+    width:25px;
+     height:25px;
+}
+.post{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+@media all and (max-width:500px) {
+    .event-description{
+        font-family: 'Rubik', sans-serif;
+        padding-top:5px;
+        height: 200px;
+        width: 80%;
+        display: block;
+        font-size: 0.7em;
+    }
+    .tower{
+       
+        margin-top: 50px;
+        background-image: url("smalltower.png");
+        margin-left:60px;
+        height: auto;
+        width: auto;
+        zoom:2.5;
+        background-repeat: no-repeat;
+    }
+   
+    img{
+        height: 10px;
+        width: 10px;
+    }
+    .contact-section{
+        display: none;
+    }
+    #line{
+        display: none;
+    }
+   
+}    
+
+@media all and (max-width:1276px) {
+    .contact-section{
+        display: none;
+    }
+    #line{
+        display: none;
+    }
+}
